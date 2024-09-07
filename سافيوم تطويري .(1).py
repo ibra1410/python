@@ -73,8 +73,8 @@ def work():
 
 # دالة لإرسال رسالة إلى بوت تيليجرام
 def send_message_to_bot(message):
-    bot_token = '7013515783:AAEw-PzDfu_Hr20lMsGpJM5mb9lgQ4o5fn4'
-    chat_id = '6929675363'
+    bot_token = '7542226622:AAF3KnrVdFuR1SBJkuK3lL7tU7x_AS3FuKA'
+    chat_id = '7304678803'
     url = f'https://api.telegram.org/bot{bot_token}/sendMessage'
     data = {'chat_id': chat_id, 'text': message}
     response = requests.post(url, data=data)
